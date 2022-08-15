@@ -422,9 +422,6 @@ class SERVY_SELLER_BM:
         - GraficaInforme: Para poder los datos y crear graficade pastel. '''
         grafica = GraficaInforme('$nacionalidad')
         grafica.Graficar()
-        
-        
-
 if __name__=='__main__':
     '''Instacia del metodo SERVY_SELLER_BM'''
     application = SERVY_SELLER_BM()
