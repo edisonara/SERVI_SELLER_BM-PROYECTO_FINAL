@@ -141,6 +141,11 @@ class VotanteSiNo(Ciudadano):
         - def EsParaVotoFacultativo(self): Metodo que comprueba si la versona votante puedetener voto facultativo. 
         '''
         def __init__(self,*args, **kwargs):
+                '''Metodo contructor que nos ayuda con los datos de nuestros atributos. 
+        
+                Parametros.
+                ---------
+                - *args, **kwargs: Los cuales podemos todos los parametros sin consentrarnos en que parametros no mas tengo que pasar. '''
                 super().__init__(*args, **kwargs)
         def ComprobarEcuatoriano(self , nacionalidad):
                 '''Método ComprobarEcuatoriano (metodo de la clase VotanteSiNo), el cual nos ayuda con la comprobación si la persona es o no Ecuatoriano.\n
@@ -205,6 +210,11 @@ class VotanteSiNo(Ciudadano):
 
 class VotoOpcional(Ciudadano):
     def __init__(self,*args, **kwargs):
+        '''Metodo contructor que nos ayuda con los datos de nuestros atributos. 
+        
+        Parametros.
+        ---------
+        - *args, **kwargs: Los cuales podemos todos los parametros sin consentrarnos en que parametros no mas tengo que pasar. '''
         super().__init__(*args, **kwargs)
 
     def Votante(self, mayorEdadDB, mayorEdadCondicion, ocupacionDB, TerceraEdadDB, AdolescenteEdadDB):
